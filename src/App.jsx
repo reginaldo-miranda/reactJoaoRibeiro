@@ -29,6 +29,18 @@ import './App.css';
 import Aticle from './components/Article'; //importando o componente Article
 
 function App(){
+
+  let artigos = [
+    {id:1 ,titulo: 'um' , subtitulo : 'um sub'},
+    {id:2 ,titulo: 'dois', subtitulo: 'dois sub'},
+    {id:3 ,titulo: 'tres', subtitulo: 'tres sub'},
+    {id:4 ,titulo: 'quatro', subtitulo: 'quatro sub'},
+    {id:5 ,titulo: 'cinco', subtitulo: 'cinco sub'},
+  ]
+
+  let conteudo = artigos.map(v_artigos => < Aticle key={v_artigos.id} titulo={v_artigos.titulo}
+     subtitulo={v_artigos.subtitulo}/>) 
+
   return(
     <>
         <h3>Teste de componentes</h3>
@@ -36,8 +48,8 @@ function App(){
         <Table></Table>
         <Image></Image>
         <Data></Data>
-        <Aticle titulo='noticia um' subtitlo='sub um'></Aticle>
-        <Aticle titulo='noticia dois' subtitlo='sub 2'></Aticle>
+        {conteudo}
+       
 
     </>
 

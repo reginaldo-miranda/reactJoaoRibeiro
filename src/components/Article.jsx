@@ -1,8 +1,11 @@
-export default function(props){
+export default function({titulo, subtitulo}){
+    let t = titulo
+    let s = subtitulo
+
     return (
         <>
-            <h3>{props.titulo}</h3>
-            <h5>{props.subtitulo}</h5>
+            <h3>{t}</h3>
+            <h5>{s}</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </>
     )
