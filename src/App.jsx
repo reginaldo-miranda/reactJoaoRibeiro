@@ -62,14 +62,17 @@ function App(){
 export default App  */
 import React from "react";
 import { useState } from "react";
-import HooksState from "./components/UseState01";
+import HooksState01 from "./components/UseState01";
+
+import HooksState02 from "./components/UseState02";
 
 export default () => {
 
   return (
     <>
      <h1>react Hooks</h1>
-     <HooksState/>
+     {/* <HooksState01/>*/}
+     <HooksState02/>
      
     </>
   );
