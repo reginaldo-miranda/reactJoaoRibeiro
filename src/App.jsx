@@ -61,10 +61,10 @@ function App(){
 
 export default App  */
 import React from "react";
-import { useState } from "react";
-import HooksState01 from "./components/UseState01";
-
-import HooksState02 from "./components/UseState02";
+//import { useState } from "react";
+//import HooksState01 from "./components/UseState01";
+//import HooksState02 from "./components/UseState02";
+import HooksState03 from "./components/UseState03";
 
 export default () => {
 
@@ -72,7 +72,8 @@ export default () => {
     <>
      <h1>react Hooks</h1>
      {/* <HooksState01/>*/}
-     <HooksState02/>
+     {/*<HooksState02/>*/}
+     <HooksState03/>
      
     </>
   );
