@@ -67,21 +67,25 @@ import React from "react";
 //import HooksState03 from "./components/UseState03";
 //import HooksState04 from "./components/UseState04";
 //import HooksState06 from "./components/UseState06";
-import HooksState07 from "./components/UseState07";
+//import HooksState07 from "./components/UseState07";
+//import HooksState08 from "./components/UseState08";
+//import HooksState09 from "./components/UseState09";
+import HooksState10 from "./components/UseState10";
 
 export default () => {
-
   return (
     <>
-     <h1>react Hooks</h1>
-     {/* <HooksState01/>*/}
-     {/*<HooksState02/>*/}
-     {/*<HooksState03/>*/}
-     {/*<HooksState04/>*/}
-     {/*<HooksState05/>*/}
-     {/*<HooksState06/>*/}
-     <HooksState07/>
-     
+      <h1>react Hooks</h1>
+      {/* <HooksState01/>*/}
+      {/*<HooksState02/>*/}
+      {/*<HooksState03/>*/}
+      {/*<HooksState04/>*/}
+      {/*<HooksState05/>*/}
+      {/*<HooksState06/>*/}
+      {/*<HooksState07/>*/}
+      {/*<HooksState08/>*/}
+      {/*<HooksState09 />*/}
+      <HooksState10 />
     </>
   );
 };
