@@ -66,7 +66,8 @@ import React from "react";
 //import HooksState02 from "./components/UseState02";
 //import HooksState03 from "./components/UseState03";
 //import HooksState04 from "./components/UseState04";
-import HooksState05 from "./components/UseState05";
+//import HooksState06 from "./components/UseState06";
+import HooksState07 from "./components/UseState07";
 
 export default () => {
 
@@ -77,7 +78,9 @@ export default () => {
      {/*<HooksState02/>*/}
      {/*<HooksState03/>*/}
      {/*<HooksState04/>*/}
-     <HooksState05/>
+     {/*<HooksState05/>*/}
+     {/*<HooksState06/>*/}
+     <HooksState07/>
      
     </>
   );
