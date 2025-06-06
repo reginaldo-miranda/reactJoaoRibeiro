@@ -70,7 +70,11 @@ import React from "react";
 //import HooksState07 from "./components/UseState07";
 //import HooksState08 from "./components/UseState08";
 //import HooksState09 from "./components/UseState09";
-import HooksState10 from "./components/UseState10";
+//import HooksState10 from "./components/UseState10";
+//import HooksState11 from "./components/UseState11";
+//import HooksState12 from "./components/UseState12";
+//import HooksState13 from "./components/UseState13";
+import HooksState14 from "./components/UseState14";
 
 export default () => {
   return (
@@ -85,7 +89,11 @@ export default () => {
       {/*<HooksState07/>*/}
       {/*<HooksState08/>*/}
       {/*<HooksState09 />*/}
-      <HooksState10 />
+      {/*<HooksState10 />*/}
+      {/*<HooksState11 />*/}
+      {/*<HooksState12 />*/}
+      {/*<HooksState13 />*/}
+      <HooksState14/>
     </>
   );
 };
