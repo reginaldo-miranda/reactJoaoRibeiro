@@ -60,7 +60,7 @@ function App(){
 }     
 
 export default App  */
-import React from "react";
+import React, { useEffect } from "react";
 //import { useState } from "react";
 //import HooksState01 from "./components/UseState01";
 //import HooksState02 from "./components/UseState02";
@@ -75,8 +75,9 @@ import React from "react";
 //import HooksState12 from "./components/UseState12";
 //import HooksState13 from "./components/UseState13";
 //import HooksState14 from "./components/UseState14";
-import HooksState15 from "./components/UseState15";
-import HooksState16 from "./components/UseRef16";
+//import HooksState15 from "./components/UseState15";
+//import HooksState16 from "./components/UseRef16";
+import HooksEffect17 from "./components/useEffect17"
 
 export default () => {
   return (
@@ -96,8 +97,10 @@ export default () => {
       {/*<HooksState12 />*/}
       {/*<HooksState13 />*/}
       {/*<HooksState14/>*/}
-      <HooksState15></HooksState15>
-      <HooksState16/>
+      {/*<HooksState15/>*/}
+      {/*<HooksState16/>*/}
+      <HooksEffect17/>
+
     </>
   );
 };
