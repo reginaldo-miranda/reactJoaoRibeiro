@@ -77,7 +77,8 @@ import React, { useEffect } from "react";
 //import HooksState14 from "./components/UseState14";
 //import HooksState15 from "./components/UseState15";
 //import HooksState16 from "./components/UseRef16";
-import HooksEffect17 from "./components/useEffect17"
+//import HooksEffect17 from "./components/useEffect17"
+import HooksEffect18 from "./components/useEffect18"
 
 export default () => {
   return (
@@ -99,7 +100,8 @@ export default () => {
       {/*<HooksState14/>*/}
       {/*<HooksState15/>*/}
       {/*<HooksState16/>*/}
-      <HooksEffect17/>
+      {/*<HooksEffect17>*/}
+      <HooksEffect18/>
 
     </>
   );

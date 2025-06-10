@@ -3,7 +3,9 @@ import ReactDom from "react-dom/client";
 import App from "./App";
 
 ReactDom.createRoot(document.querySelector("#root")).render(
-  <React.StrictMode>
-    <App></App>
-  </React.StrictMode>
+ 
+    <App/>
+
 );
+  {/*</React.StrictMode>*/}
+   {/*<React.StrictMode>*/}
